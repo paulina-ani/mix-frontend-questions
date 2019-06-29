@@ -55,4 +55,4 @@ function changeNumber3() {
   x3 = 4;
   return x3;
 }
-console.log(changeNumber3(5));
+console.log(changeNumber3(5)); // 4
