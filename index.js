@@ -62,10 +62,22 @@ console.log(changeNumber3(5)); // 4
   Answer: False
 */
 
-/* 8. Arrow function characteristics:
+/* 8a. Arrow function characteristics:
   a) is anonymous
   b) may works without "return"
 */
+
+// 8b. Which function is anonymous?
+const Hallo = function() {
+  console.log("Hallo");
+};
+Hallo();
+
+function Hi() {
+  console.log("Hi");
+}
+Hi();
+// Hallo is anonymous
 
 /* 9a. Which methods are available for array? 
   a) forEach, forEvery, map, filter, reduce, find
