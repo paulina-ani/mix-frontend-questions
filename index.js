@@ -106,7 +106,29 @@ let car = new Car("Audi", 35000, true);
 console.log(car.name); // Audi
 console.log(car.turnOn()); // "Brum brum brum"
 console.log(typeof car); // object
+console.log(car);
 console.log(typeof Car); // function
+
+// 10c
+class Car2 {
+  constructor(name, price, isDiesel) {
+    this.name = name;
+    this.price = price;
+    this.isDiesel = isDiesel;
+  }
+  turnOn() {
+    return "Brum brum brum";
+  }
+}
+
+let car2 = new Car2("Audi", 35000, true);
+console.log("");
+console.log("Car2");
+console.log(car2.name); // Audi
+console.log(car2.turnOn()); // "Brum brum brum"
+console.log(typeof car2); // object
+console.log(car2);
+console.log(typeof Car2); // function
 
 /*11. Which is correct:
 
